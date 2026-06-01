@@ -1,0 +1,29 @@
+{
+  "releases": [
+    {
+      "version": "v1.0.0",
+      "date": "2025-07-15",
+      "tagline": "V1 of TickerScope",
+      "prerelease": false,
+      "changelog": {
+        "New": [
+          "Initial release of TickerScope is here!"
+        ],
+        "Improvements": [
+          "No Prerequisites, No user effort, fully local.\nUse the installer, pin it wherever you like and on you go!"
+        ],
+        "Fixes": [
+          "You Tell Me!\nFeel free to communicate if you find any bugs or scopes for improvements"
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.0.0-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 31373,
+          "platform": "windows"
+        }
+      ]
+    }
+  ]
+}
