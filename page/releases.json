@@ -21,7 +21,8 @@
           "name": "TickerScope-v1.0.0-windows-x64.exe",
           "label": "Windows x64 installer",
           "size_kb": 31373,
-          "platform": "windows"
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.0.0/TickerScope-v1.0.0-windows-x64.exe"
         }
       ]
     }
