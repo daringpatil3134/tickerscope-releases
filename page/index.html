@@ -99,6 +99,7 @@ html:not(.no-transition) .ptab{transition:background-color .26s ease,border-colo
 .ctl:active{transform:translateY(1px);}
 .ctl:focus-visible{outline:2px solid var(--accent);outline-offset:1px;}
 .ctl svg{color:var(--text-muted);}
+.ctl.primary svg{color:inherit;}
 .ctl.icon-only{padding:0;width:34px;justify-content:center;}
 .ctl.primary{background:var(--accent);color:var(--on-accent);border-color:transparent;}
 .ctl.primary:hover{background:var(--accent-strong);border-color:transparent;color:var(--on-accent);}
@@ -520,13 +521,11 @@ function buildReleaseCard(release, isLatest) {
 // ── stats row ────────────────────────────────────────────────────────────────
 function buildStats(releases) {
   const latest = releases[0];
-  const totalDownloads = releases.reduce((s, r) =>
-    s + r.assets.reduce((a, x) => a + (x.downloads || 0), 0), 0);
 
   const tiles = [
     { val: latest.version, label: "Version", color: "var(--accent)" },
-    { val: totalDownloads > 0 ? totalDownloads.toLocaleString() : "—", label: "Downloads" },
     { val: "Windows x64", label: "Platform" },
+    { val: "NSE", label: "Exchange", color: "var(--pos)" },
   ];
 
   const row = document.getElementById("statsRow");
