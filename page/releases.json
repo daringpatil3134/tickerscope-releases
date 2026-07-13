@@ -1,6 +1,35 @@
 {
   "releases": [
     {
+      "version": "v1.1.0",
+      "date": "2026-07-14",
+      "tagline": "One-click updates, a snappier start, and a fresh coat of paint.",
+      "prerelease": false,
+      "changelog": {
+        "New": [
+          "One-click updates are here! TickerScope now gives you a little nudge when a new version lands and installs it for you - no download hunting, no fuss.",
+          "Fancy Windows Terminal? The installer can set it up for the sharpest look. Prefer to keep it classic? Skip it - TickerScope won't hold a grudge."
+        ],
+        "Improvements": [
+          "Snappier start - the menu pops up almost the moment you launch instead of making you twiddle your thumbs.",
+          "A shiny new TickerScope icon strutting its stuff on your app, shortcuts and taskbar."
+        ],
+        "Fixes": [
+          "Spotted a gremlin? You tell me!\nFeel free to communicate if you find any bugs or scopes for improvements"
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.1.0-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 34602,
+          "sha256": "07181cbe44712c75e1f00ba93f6b321d5933057c6b1482598098d053f7adc781",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.1.0/TickerScope-v1.1.0-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.0.0",
       "date": "2026-06-01",
       "tagline": "V1 of TickerScope",
