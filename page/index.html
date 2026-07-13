@@ -126,6 +126,9 @@ html[data-theme="dark"]  .ico-sun {display:block;}
 /* ── page body ────────────────────────────────────────────────────────── */
 .page-body{max-width:860px;margin:0 auto;padding:0 24px;display:flex;flex-direction:column;gap:32px;}
 .sec-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;}
+/* Space the "Previous releases" block off the latest card (it's the only nested
+   <section> inside #releases, appended by renderReleases). */
+#releases > section{margin-top:32px;}
 
 /* ── stats tiles ─────────────────────────────────────────────────────── */
 .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;}
