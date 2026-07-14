@@ -547,7 +547,7 @@ function renderReleases(releases) {
   section.innerHTML = "";
 
   const latest = releases[0];
-  const older  = releases.slice(1);
+  const older  = releases.slice(1, 4);   // show at most the 3 most-recent previous releases
 
   // section header
   section.append(

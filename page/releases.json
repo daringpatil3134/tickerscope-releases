@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "version": "v1.1.1",
+      "date": "2026-07-14",
+      "tagline": "Minor bug fixes.",
+      "prerelease": false,
+      "changelog": {
+        "Fixes": [
+          "Smoothed out a rare screen scribble - a chatty data-library warning could scrawl over the dashboard. Fixed at the source, so the screen stays crisp.",
+          "Spotted a gremlin? You tell me! Feel free to flag any bugs or ideas."
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.1.1-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 34603,
+          "sha256": "5f53d30551b5478392bdfd2ab7267a33096c41ddf2bd80606f9bdd4652d119c0",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.1.1/TickerScope-v1.1.1-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.1.0",
       "date": "2026-07-14",
       "tagline": "One-click updates, a snappier start, and a fresh coat of paint.",
