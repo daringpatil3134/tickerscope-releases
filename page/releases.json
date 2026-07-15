@@ -2,6 +2,7 @@
   "releases": [
     {
       "version": "v1.1.2",
+      "author": "Pranav",
       "date": "2026-07-14",
       "tagline": "Stability fix.",
       "prerelease": false,
