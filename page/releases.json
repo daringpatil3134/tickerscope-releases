@@ -1,8 +1,39 @@
 {
   "releases": [
     {
+      "version": "v1.2.0",
+      "date": "2026-07-15",
+      "tagline": "The big one - point, click, and go.",
+      "prerelease": false,
+      "changelog": {
+        "New": [
+          "Mouse support has arrived! Click a column header to sort by it, click a panel to blow it up full-screen (click again to shrink it back), and scroll with your wheel - no more hunting for the right key.",
+          "A friendly first-run setup guide now greets you the first time you open TickerScope, explains what everything does, and lets you dial in your preferences. You can bring it back anytime."
+        ],
+        "Improvements": [
+          "The window is fully resizable now - stretch or shrink it and every panel re-flows to fit your screen, instead of overflowing or getting clipped like before.",
+          "Zoom in on demand - blow any panel up to full-screen and snap it back, so the Full Boost List or the Sector board can take over the whole window when you want a closer look.",
+          "Scrolling is smooth and flicker-free, and the list keeps your exact spot when you sort or when fresh data lands - no more jumping back to the top.",
+          "The menu, settings, history and the new setup guide are proper click-through screens now - real controls you point at, not a wall of keys to memorise."
+        ],
+        "Fixes": [
+          "Fixed a stray 'couldn't save settings' warning that could pop up when switching between Live and Auto.",
+          "Spotted a gremlin? You tell me! Feel free to flag any bugs or ideas."
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.2.0-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 36533,
+          "sha256": "fc848cd4442d4c9273ef555dfcbef88e93c4aa5c3e6fcdb814e2ca07e1526240",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.0/TickerScope-v1.2.0-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.1.2",
-      "author": "Pranav",
       "date": "2026-07-14",
       "tagline": "Stability fix.",
       "prerelease": false,
@@ -16,8 +47,8 @@
         {
           "name": "TickerScope-v1.1.2-windows-x64.exe",
           "label": "Windows x64 installer",
-          "size_kb": 34608,
-          "sha256": "45b28a0d11da51a4a933cfc6b9991e9b62e81b8b9d133f40646c4e564fb4d81d",
+          "size_kb": 34606,
+          "sha256": "e36337876462e2fcbddc3caf4b0945625aba843e7e304567f6fa155976b93fe2",
           "platform": "windows",
           "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.1.2/TickerScope-v1.1.2-windows-x64.exe"
         }
