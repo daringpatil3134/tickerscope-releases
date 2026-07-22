@@ -3,28 +3,23 @@
     {
       "version": "v1.2.2",
       "date": "2026-07-22",
-      "tagline": "Manifest support, workflow improvements, and data fetching fixes.",
+      "tagline": "Faster data at market open and clearer status during the opening range.",
       "prerelease": false,
       "changelog": {
-        "New": [
-          "GitHub Actions release workflow: push a v* tag and the installer builds, publishes, and updates the release manifest automatically.",
-          "Rich release notes via release.json — write structured New / Improvements / Fixes sections that render with colored badges in the app and on the website."
-        ],
         "Improvements": [
-          "update_manifest.py now reads release.json from the source checkout so the CI-generated manifest entry carries the full structured changelog instead of a flat fallback.",
-          "installer.iss fallback version kept in sync with constants.APP_VERSION."
+          "Stock analytics (Change%, RVOL, Reaction Factor) now appear from the very first bar at 09:15 instead of waiting for three bars to accumulate."
         ],
         "Fixes": [
-          "Data fetching reliability improvements: scan engine now handles partial download chunks more gracefully and retries failed tickers individually.",
-          "Corrected installer fallback version string that was still pointing to 1.2.0 after the 1.2.1 bump."
+          "During the 09:15–09:29 opening range, the app now shows 'Opening range forming' instead of the misleading 'No stocks passed criteria' message — breakout signals genuinely cannot exist yet.",
+          "Fixed a rare issue where a single missed network check right at market open could leave the app unavailable for up to 15 minutes."
         ]
       },
       "assets": [
         {
           "name": "TickerScope-v1.2.2-windows-x64.exe",
           "label": "Windows x64 installer",
-          "size_kb": 37120,
-          "sha256": "e65232051200fe610adc3c559b33697e3e0747423fbb49adea26e6e8f8ea1dd4",
+          "size_kb": 37119,
+          "sha256": "dae1138e7520931a9a0d77a18a7b689261d26cc6acca81f77931ecb7e32dc1d1",
           "platform": "windows",
           "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.2/TickerScope-v1.2.2-windows-x64.exe"
         }
