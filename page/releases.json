@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "version": "v1.2.3",
+      "date": "2026-07-22",
+      "tagline": "Windows 7 users — we didn't forget you. The app now actually launches.",
+      "prerelease": false,
+      "changelog": {
+        "Fixes": [
+          "Squashed the 'api-ms-win-core-path-l1-1-0.dll is missing' ghost that greeted Windows 7 users instead of the app — a compatibility shim is now bundled so the launcher doesn't die before it even breathes.",
+          "The installer no longer throws a scary red PowerShell window on Windows 7 — it now quietly skips the Windows Terminal step on older OSes instead of dramatically failing in front of you."
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.2.3-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 37121,
+          "sha256": "62e602e14a121b51fb86256dc49404ad825e64b9edce511552e150d421365ad0",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.3/TickerScope-v1.2.3-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.2.2",
       "date": "2026-07-22",
       "tagline": "Faster data at market open and clearer status during the opening range.",
