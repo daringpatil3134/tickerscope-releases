@@ -1,6 +1,36 @@
 {
   "releases": [
     {
+      "version": "v1.2.2",
+      "date": "2026-07-22",
+      "tagline": "Manifest support, workflow improvements, and data fetching fixes.",
+      "prerelease": false,
+      "changelog": {
+        "New": [
+          "GitHub Actions release workflow: push a v* tag and the installer builds, publishes, and updates the release manifest automatically.",
+          "Rich release notes via release.json — write structured New / Improvements / Fixes sections that render with colored badges in the app and on the website."
+        ],
+        "Improvements": [
+          "update_manifest.py now reads release.json from the source checkout so the CI-generated manifest entry carries the full structured changelog instead of a flat fallback.",
+          "installer.iss fallback version kept in sync with constants.APP_VERSION."
+        ],
+        "Fixes": [
+          "Data fetching reliability improvements: scan engine now handles partial download chunks more gracefully and retries failed tickers individually.",
+          "Corrected installer fallback version string that was still pointing to 1.2.0 after the 1.2.1 bump."
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.2.2-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 37120,
+          "sha256": "e65232051200fe610adc3c559b33697e3e0747423fbb49adea26e6e8f8ea1dd4",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.2/TickerScope-v1.2.2-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.2.1-rc1",
       "date": "2026-07-22",
       "tagline": "fix",
