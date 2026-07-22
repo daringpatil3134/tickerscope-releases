@@ -1,6 +1,27 @@
 {
   "releases": [
     {
+      "version": "v1.2.1-rc1",
+      "date": "2026-07-22",
+      "tagline": "fix",
+      "prerelease": true,
+      "changelog": {
+        "Changes": [
+          "See release notes for v1.2.1-rc1."
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.2.1-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 37120,
+          "sha256": "4e3bd0c5dfc7cc1df499bc6aa1efdba20bb68871bfc4c8225b7998f673d0eb24",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.1-rc1/TickerScope-v1.2.1-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.2.0",
       "date": "2026-07-15",
       "tagline": "The big one - point, click, and go.",
