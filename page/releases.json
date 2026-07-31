@@ -1,6 +1,35 @@
 {
   "releases": [
     {
+      "version": "v1.2.4",
+      "date": "2026-07-31",
+      "tagline": "No more staring at a blank screen at 09:15 — the opening range now builds live from the bell, and you get to decide how long it lasts.",
+      "prerelease": false,
+      "changelog": {
+        "New": [
+          "Watch the opening range build in real time: from 09:15 the boost list fills in against the range-so-far — with a little 'Opening range building · locks HH:MM' note up top — instead of making you wait for the 15-minute mark to see anything.",
+          "Your opening range, your rules: a new 'Opening range' setting (press [L] in the menu) lets you shorten the window from the default 15 minutes, in 5-minute steps, if you like to get moving earlier."
+        ],
+        "Improvements": [
+          "Everyone sees the same board now: whether a stock is streaming live ticks or being topped up in the background, its opening range is worked out the exact same way — no more phantom early breakouts that showed up for some symbols (or some people) and not others.",
+          "The numbers arrive sooner: Change%, RVOL and R.Fac start populating from the very first bar of the session instead of waiting for the opening range to finish."
+        ],
+        "Fixes": [
+          "The great 09:15 blackout is over: a single hiccup checking in at the open used to leave the whole dashboard dark for a full 15 minutes. It now retries within seconds, so your data shows up right after the bell."
+        ]
+      },
+      "assets": [
+        {
+          "name": "TickerScope-v1.2.4-windows-x64.exe",
+          "label": "Windows x64 installer",
+          "size_kb": 37178,
+          "sha256": "c4a242ac6b650a9b9a0908557fef4f117536c8c252fb81b6fba2f4500f9b9523",
+          "platform": "windows",
+          "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.4/TickerScope-v1.2.4-windows-x64.exe"
+        }
+      ]
+    },
+    {
       "version": "v1.2.3",
       "date": "2026-07-22",
       "tagline": "Windows 7 users — we didn't forget you. The app now actually launches.",
