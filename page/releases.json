@@ -12,18 +12,20 @@
         ],
         "Improvements": [
           "Everyone sees the same board now: whether a stock is streaming live ticks or being topped up in the background, its opening range is worked out the exact same way — no more phantom early breakouts that showed up for some symbols (or some people) and not others.",
-          "The numbers arrive sooner: Change%, RVOL and R.Fac start populating from the very first bar of the session instead of waiting for the opening range to finish."
+          "The numbers arrive sooner: Change%, RVOL and R.Fac start populating from the very first bar of the session instead of waiting for the opening range to finish.",
+          "Updates now slip in quietly — no installer wizard, no progress pop-ups. From here on TickerScope installs just for you (no system-wide admin needed), so updates are prompt-free. The one-time move off the old system-wide install asks for a single Windows permission, tidies up the old copy, and then never bothers you again. Your history and settings carry over untouched."
         ],
         "Fixes": [
-          "The great 09:15 blackout is over: a single hiccup checking in at the open used to leave the whole dashboard dark for a full 15 minutes. It now retries within seconds, so your data shows up right after the bell."
+          "The great 09:15 blackout is over: a single hiccup checking in at the open used to leave the whole dashboard dark for a full 15 minutes. It now retries within seconds, so your data shows up right after the bell.",
+          "The 'What's new' box now scrolls: long update notes no longer push the Install and Cancel buttons off the bottom of the screen."
         ]
       },
       "assets": [
         {
           "name": "TickerScope-v1.2.4-windows-x64.exe",
           "label": "Windows x64 installer",
-          "size_kb": 37178,
-          "sha256": "c4a242ac6b650a9b9a0908557fef4f117536c8c252fb81b6fba2f4500f9b9523",
+          "size_kb": 37185,
+          "sha256": "c3adbdcc26dd7923a5fd7da7d6fa0492de59dc826bf7e77e38c4c50bf39b7e9a",
           "platform": "windows",
           "url": "https://github.com/daringpatil3134/tickerscope-releases/releases/download/v1.2.4/TickerScope-v1.2.4-windows-x64.exe"
         }
